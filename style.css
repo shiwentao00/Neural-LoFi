@@ -3,19 +3,32 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #151B29;
+    background-color: #2c4082;
 }
 
-button {
+div {
+    color: gainsboro;
+}
+
+#controlPanel {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}   
+
+#playButton {
     background: None;
-    color: #FFA260;
+    text-align: center;
+    width: 120px;
+    color: #f1ff5c;
     border: 2px solid;
+    border-radius: 4px;
     padding: 1em 2em;
     font-size: 1em;
     transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 
-button:hover {
+#playButton:hover {
     border-color: #f1ff5c;
     color: white;
     box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;

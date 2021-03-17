@@ -9,7 +9,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@magenta/music@^1.0.0"></script>
 </head>
 <body>
-    <button id="playButton">Play</button>
+    <div>
+        <button id="playButton">Play </button>
+    </div>
+
+    <div id="controlPanel">
+        <label for="tempo">Select tempo: </label>
+        <input type="range" name="tempo" id="tempo" min="30" max="140" step="10" value="80">
+        <output id="tempoOutput" for="tempo"></output>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
