@@ -1,0 +1,19 @@
+{
+  "name": "neural-lofi",
+  "version": "1.0.0",
+  "description": "LoFi improvisor based on deep learning. Under construction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiwentao00/neural-lofi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiwentao00/neural-lofi/issues"
+  },
+  "homepage": "https://github.com/shiwentao00/neural-lofi#readme"
+}
